@@ -221,7 +221,7 @@ header.masthead {
 
 .post-preview > .post-meta {
   font-size: 18px;
-  font-style: italic;
+  font-weight: 100;
   margin-top: 0;
   color: #777777; }
   .post-preview > .post-meta > a {
