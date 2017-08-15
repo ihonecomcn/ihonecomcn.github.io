@@ -18,10 +18,10 @@ header.masthead {
   .page-heading,
   .post-heading,
   .site-heading {
-    padding: 200px 0 150px;
+    padding: 150px 0 50px;
     color: white;
     @media only screen and (min-width: 768px) {
-      padding: 200px 0;
+      padding: 150px 0 100px;
     }
   }
   .page-heading,
@@ -30,13 +30,15 @@ header.masthead {
     h1 {
       font-size: 50px;
       margin-top: 0;
+      font-weight: 100;
     }
     .subheading {
-      font-size: 24px;
+      font-size: 16px;
       font-weight: 300;
       line-height: 1.1;
       display: block;
       margin: 10px 0 0;
+      color: $gray-lighter;
       @include sans-serif-font;
     }
     @media only screen and (min-width: 768px) {
@@ -48,14 +50,16 @@ header.masthead {
   .post-heading {
     h1 {
       font-size: 35px;
+      margin-bottom: 50px;
     }
     .meta,
     .subheading {
       line-height: 1.1;
       display: block;
+      color: $gray-lighter;
     }
     .subheading {
-      font-size: 24px;
+      font-size: 16px;
       font-weight: 300;
       margin: 10px 0 30px;
       @include sans-serif-font;
@@ -63,7 +67,6 @@ header.masthead {
     .meta {
       font-size: 20px;
       font-weight: 300;
-      font-style: italic;
       @include sans-serif-font;
       a {
         color: white;
@@ -74,7 +77,7 @@ header.masthead {
         font-size: 55px;
       }
       .subheading {
-        font-size: 30px;
+        font-size: 20px;
       }
     }
   }
