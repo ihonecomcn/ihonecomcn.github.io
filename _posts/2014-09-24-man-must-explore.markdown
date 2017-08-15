@@ -4,7 +4,7 @@ title: 'Man must explore, and this is exploration at its greatest'
 subtitle: Problems look mighty small from 150 miles up
 date: 2014-09-24T12:00:00.000Z
 author: Start Bootstrap
-header-img: img/post-bg.jpg
+cover-img: img/post-bg.jpg
 published: true
 ---
 
