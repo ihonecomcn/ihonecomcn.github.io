@@ -7,20 +7,25 @@
       text-decoration: none;
       color: $theme-primary;
     }
-    > .post-title {
-      font-size: 30px;
-      margin-top: 30px;
-      margin-bottom: 10px;
-    }
-    > .post-subtitle {
-      font-weight: 300;
-      margin: 0 0 10px;
-    }
   }
-  > .post-meta {
+  .post-title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .post-subtitle {
+    font-size: 20px;
+    font-weight: 200;
+    margin: 10px 0;
+    color: $gray-light;
+  }
+  .post-cover {
+    width: 100%;
+  }
+  .post-meta {
     font-size: 18px;
     font-weight: 100;
-    margin-top: 0;
+    margin: 0 0 10px;
     color: $gray-light;
     > a {
       text-decoration: none;
@@ -32,11 +37,19 @@
       }
     }
   }
+  > .post-excerpt {
+    font-weight: 400;
+    color: $gray-light;
+  }
   @media only screen and (min-width: 768px) {
-    > a {
-      > .post-title {
-        font-size: 36px;
-      }
+    .post-title {
+      font-size: 36px;
     }
+  }
+}
+
+.post {
+  h2 {
+    letter-spacing: 0.5em;
   }
 }
