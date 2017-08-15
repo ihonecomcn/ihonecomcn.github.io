@@ -49,13 +49,21 @@
 }
 
 .post {
+  p {
+    color: $gray;
+  }
   h2 {
+    font-size: 22px;
     letter-spacing: 0.5em;
+    text-align: center;
     &:before {
       content: '/'
     }
     &:after {
       content: '/'
     }
+  }
+  p + h2 {
+    margin-top: 50px;
   }
 }
