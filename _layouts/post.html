@@ -4,7 +4,8 @@ published: false
 ---
 
 <!-- Post Header -->
-<header class="masthead" style="background-image: url('{% if page.cover-img %}{{ page.cover-img }}{% else %}{{ site.baseurl }}/{{ site.header-img }}{% endif %}')">
+<header class="masthead">
+    <div class="background" style="background-image: url('{% if page.cover-img %}{{ page.cover-img }}{% else %}{{ site.baseurl }}/{{ site.header-img }}{% endif %}')"></div>
     <div class="backdrop"></div>
     <div class="container">
         <div class="row">
