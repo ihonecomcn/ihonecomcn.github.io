@@ -8,8 +8,8 @@ description: "A Clean Blog Theme by Start Bootstrap"
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">{{ post.title }}</h2>
         <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-        {% if post.header-img %}
-        <img class="post-cover" src="{{ post.header-img }}" alt="{{ post.title }}">
+        {% if post.cover-img %}
+        <img class="post-cover" src="{{ post.cover-img }}" alt="{{ post.title }}">
         {% endif %}
         {% if post.subtitle %}
         <h3 class="post-subtitle">
