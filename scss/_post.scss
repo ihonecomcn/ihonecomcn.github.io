@@ -14,7 +14,7 @@
     margin-bottom: 10px;
   }
   .post-subtitle {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
     margin: 10px 0;
     color: $gray-light;
@@ -51,6 +51,12 @@
 .post {
   p {
     color: $gray;
+
+    img {
+      display: block;
+      margin: auto;
+      max-width: 100%;
+    }
   }
   h2 {
     font-size: 22px;

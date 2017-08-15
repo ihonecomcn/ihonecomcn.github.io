@@ -64,7 +64,7 @@ header.masthead {
   .post-heading {
     h1 {
       font-size: 35px;
-      margin-bottom: 50px;
+      margin-bottom: 30px;
     }
     .meta,
     .subheading {
@@ -79,7 +79,7 @@ header.masthead {
       @include sans-serif-font;
     }
     .meta {
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 300;
       @include sans-serif-font;
       a {
@@ -91,7 +91,7 @@ header.masthead {
         font-size: 55px;
       }
       .subheading {
-        font-size: 20px;
+        font-size: 18px;
       }
     }
   }
