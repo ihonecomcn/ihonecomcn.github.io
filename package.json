@@ -11,6 +11,9 @@
     "theme",
     "template"
   ],
+  "scripts": {
+    "serve": "bundle exec jekyll serve"
+  },
   "homepage": "http://startbootstrap.com/template-overviews/clean-blog",
   "bugs": {
     "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog/issues",
