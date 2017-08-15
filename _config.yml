@@ -59,3 +59,10 @@ defaults:
     values:
       layout: post
       category: post
+  # _drafts
+  - scope:
+      path: "_drafts"
+      type: posts
+    values:
+      layout: post
+      category: post
