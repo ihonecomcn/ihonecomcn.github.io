@@ -1,13 +1,13 @@
 ---
 layout: page
-description: "A Clean Blog Theme by Start Bootstrap"
+description: <p>为你解决备婚时的纠结烦恼。<br>一起来备婚吧！时刻准备着！</p>
 ---
 
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">{{ post.title }}</h2>
-        <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+        <p class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</p>
         {% if post.cover-img %}
         <img class="post-cover" src="{{ post.cover-img }}" alt="{{ post.title }}">
         {% endif %}
@@ -25,10 +25,10 @@ description: "A Clean Blog Theme by Start Bootstrap"
 {% if paginator.total_pages > 1 %}
 <div class="clearfix">
     {% if paginator.previous_page %}
-    <a class="btn btn-secondary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;</a>
     {% endif %}
     {% if paginator.next_page %}
-    <a class="btn btn-secondary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&rarr;</a>
     {% endif %}
 </div>
 {% endif %}

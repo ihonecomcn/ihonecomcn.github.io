@@ -1,5 +1,6 @@
 ---
 layout: default
+published: false
 ---
 
 <!-- Post Header -->
@@ -13,7 +14,7 @@ layout: default
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <span class="meta">{{ page.date | date: "%B %-d, %Y" }}</span>
+                    <span class="meta">{{ page.date | date: "%Y-%m-%d" }}</span>
                 </div>
             </div>
         </div>
@@ -31,11 +32,11 @@ layout: default
                 <hr>
 
                 <div class="clearfix">
-                    {% if page.previous.url %}
-                    <a class="btn btn-secondary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                    {% endif %}
                     {% if page.next.url %}
-                    <a class="btn btn-secondary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                    <a class="btn btn-primary left" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">&larr;</a>
+                    {% endif %}
+                    {% if page.previous.url %}
+                    <a class="btn btn-primary float-right" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&rarr;</a>
                     {% endif %}
                 </div>
 
