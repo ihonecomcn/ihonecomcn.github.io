@@ -1,15 +1,15 @@
 # Site settings
-title: Clean Blog
+title: i婚
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-copyright_name: Your/Project/Corporate Name
-description: "Write your site description here. It will be used as your sites meta description as well!"
+email: info@ihone.com.cn
+copyright_name: i婚
+description: "我们致力于为你解决备婚时的那些纠结烦恼，也愿和你敞开心扉谈谈婚后的甜蜜与琐碎。一起来备婚吧！时刻准备着！"
 baseurl:
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
+url: "http://ihone.com.cn"
+twitter_username:
+github_username:
+facebook_username:
+email_username:  info@ihone.com.cn
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
@@ -20,6 +20,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title
 paginate: 5
+timezone: Asia/Shanghai
 
 # Exclude from processing.
 exclude:
