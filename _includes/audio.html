@@ -1,0 +1,8 @@
+{% comment %}
+Use {% include audio.html source="audio url" %} to embed an audio clip.
+{% endcomment %}
+
+<audio controls="controls" {% if include.autoplay %} autoplay {% endif %}>
+    Your browser does not support the <code>audio</code> element.
+    <source src="{{ include.src }}">
+</audio>
