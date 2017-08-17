@@ -1,7 +1,8 @@
 ---
 published: false
 title: 为了婚礼开场的三分钟，他竟花三个月写了首歌 | 二小姐的狗粮帖
-subtitle: 👊  高能预警！以下是一份巨大的狗粮！请注意！👊
+subtitle: "\uD83D\uDC4A  高能预警！以下是一份巨大的狗粮！请注意！\uD83D\uDC4A"
+cover-img: 'http://lmpic.qiniudn.com/dnd-opening/cover.png'
 ---
 ## 谁会不喜欢现场乐队呢
 
@@ -85,7 +86,7 @@ so，何不，**做自己的wedding crasher，**给自己和宾客们一个惊�
 
 如果说有什么特别难的，那大概就是**写词**。徐先森是个内敛的**标准理工男**，憋了半天，整首曲子都已经差不多了，徐先森还一直说**写不出😖**
 
-![](http://lorempixel.com/600/400/)
+![](http://lmpic.qiniudn.com/dnd-opening/think.gif)
 
 只见徐先森的小本子被他**涂涂又改改，改改又涂涂，**
 
@@ -93,7 +94,7 @@ so，何不，**做自己的wedding crasher，**给自己和宾客们一个惊�
 
 虽然我也不知道又是在哪个深更半夜，他熬出了这些词，但从耳机里听到“**You are the best thing happened in my life**”的时候，不得不说，就像**嘴里突然被塞了块糖一样甜**🍬🍬🍬
 
-![](http://lorempixel.com/600/400/)
+![](http://lmpic.qiniudn.com/dnd-opening/sweet.gif)
 
 **光有表演也是不够的**，我们还把录音制作的过程与花絮拍摄了下来，做成了一段**开场专属MV**，配合播放，也让开场显得更生动丰富。
 
