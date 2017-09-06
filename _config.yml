@@ -15,6 +15,9 @@ email_username:  info@ihone.com.cn
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
 google_tracking_id: UA-104615455-1
 
+# Static site
+static_base_url: http://lmpic.qiniudn.com
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
