@@ -262,10 +262,14 @@ header.masthead {
     margin: auto;
     max-width: 100%; }
 
+.post h2,
+.post h3,
+.post h4 {
+  text-align: center; }
+
 .post h2 {
   font-size: 22px;
-  letter-spacing: 0.5em;
-  text-align: center; }
+  letter-spacing: 0.5em; }
   .post h2:before {
     content: '/'; }
   .post h2:after {
